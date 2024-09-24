@@ -1,0 +1,356 @@
+<html>
+
+<head>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu:300,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="./styles.css">
+    <meta name="apple-itunes-app" content="app-id=1499408169, affiliate-data=myAffiliateData, app-argument=myURL">
+
+    <link rel="apple-touch-icon" sizes="57x57" href="./images/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="./images/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="./images/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="./images/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="./images/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="./images/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="./images/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="./images/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./images/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="./images/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="./images/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon-16x16.png">
+    <link rel="manifest" href="./images/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="./images/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <title>GoClimb AR - Augmented Reality Bouldering</title>
+    <meta name=”description” content="A digital guidebook that uses augmented reality to assist
+with capturing and viewing bouldering routes" />
+
+</head>
+
+<body>
+    <div class="section-one">
+        <div class="section no-pad-bot animated fadeIn slower" style="padding-top: 0px;" id="index-banner">
+            <div class="row">
+                <div class="col s2 l0"></div>
+                <div class="col s8 l2">
+                    <a href="./index.html" class="brand-logo"><img class="responsive-img"
+                            src="./Logos/Logo_trasnparentclimber text.svg" /></a>
+                </div>
+                <div class="col s2 l10"></div>
+            </div>
+            <div class="row">
+                <div class="col s12 l6 offset-l3">
+                    <h3 class="header center heading no-marg-bot">Augmented Reality Bouldering</h3>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col s12 l6 offset-l3">
+                    <h5 class="header center subheading description-text">A digital guidebook that uses augmented reality to assist
+                        with capturing and viewing bouldering routes
+                    </h5>
+                </div>
+            </div>
+
+            <br>
+            <div class="row center">
+                <div class="col s3"></div>
+                <div class="col s6">
+                    <a href="https://apps.apple.com/us/app/goclimb-ar/id1499408169?ls=1">
+                        <img class="responsive-img" src="./images/Download_on_the_App_Store_Badge_US-UK_135x40.svg" />
+                    </a>
+                </div>
+                <div class="col s3"></div>
+            </div>
+            <br>
+        </div>
+
+
+
+
+        <!--   Icon Section   -->
+        <div class="row animated bounceInUp">
+            <div class="col s0 l3 no-padding"></div>
+            <div class="col s4 l2 no-padding">
+                <div onclick="swapPanel(0)" id="capture-block" class="icon-block pointer">
+                    <h2 id="captureIcon" class="center highlight-color"><i
+                            class="large material-icons">linked_camera</i></h2>
+                    <h5 id="captureText" class="center tab-text highlight-color uppercase">Capture</h5>
+                </div>
+            </div>
+
+            <div class="col s4 l2 no-padding">
+                <div onclick="swapPanel(1)" id="view-block" class="icon-block pointer disabled-opacity">
+                    <h2 id="viewIcon" class="center inactive-color"><i class="large material-icons">show_chart</i></h2>
+                    <h5 id="viewText" class="center tab-text uppercase inactive-color">View</h5>
+                </div>
+            </div>
+
+            <div class="col s4 l2 no-padding">
+                <div onclick="swapPanel(2)" id="complete-block" class="icon-block pointer disabled-opacity">
+                    <h2 id="completeIcon" class="center inactive-color"><i class="large material-icons">done_all</i>
+                    </h2>
+                    <h5 id="completeText" class="center tab-text uppercase inactive-color">Complete</h5>
+                </div>
+            </div>
+            <div class="col s0 l3 no-padding"></div>
+        </div>
+
+        <div class="row animated bounceInUp">
+            <div class="col s1 l3"></div>
+            <div class="col s10 l6">
+                <hr />
+            </div>
+            <div class="col s1 l3"></div>
+        </div>
+        <br />
+        <div id="descripion-panel" class="row no-marg-bot">
+            <iframe class="col s10 l6 center offset-s1 offset-l3" width="560" height="315"
+                src="https://www.youtube.com/embed/SJYpeyis47E" frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+            <h5 class="col s12 l8 center offset-l2 description-text" style="margin-top: 42px;">
+                Capture routes in augmented reality so
+                that others can view them. GoClimb uses horizontal and vertical surface tracking so that you can
+                place a route on almost anything.
+            </h5>
+        </div>
+        <div style="display: none;" id="view-panel" class="row no-marg-bot">
+            <iframe class="col s10 l6 center offset-s1 offset-l3" width="560" height="315"
+                src="https://www.youtube.com/embed/SJYpeyis47E" frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+            <h5 class="col s12 l8 center offset-l2 description-text" style="margin-top: 42px;">View routes in
+                augmented reality
+                for detailed topographies and information to the tiniest detail. If you aren't near the crag you can
+                still view photo topologies to discuss the approach.</h5>
+        </div>
+        <div style="display: none;" id="complete-panel" class="row no-marg-bot">
+            <iframe class="col s10 l6 center offset-s1 offset-l3" width="560" height="315"
+                src="https://www.youtube.com/embed/SJYpeyis47E" frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+            <h5 class="col s12 l8 center offset-l2 description-text" style="margin-top: 42px;">You can only complete
+                routes if you're
+                at the crag itself. Ticking routes happens after you have restored the augmented reality session,
+                ensuring the completion is honest. (Coming Soon)</h5>
+        </div>
+        <br />
+    </div>
+
+
+    <!-- Section Two -->
+    <div class="section-two animated fadeIn">
+        <div class="container">
+            <div class="row" style="padding-top: 76px; padding-bottom: 76px; margin-bottom: 0px;">
+                <div class="col s2">
+                    <img src="./Topo.svg" />
+                </div>
+                <div class="col s10">
+                    <h4 class="heading-secondary">Discover The First Augmented Reality Climbing App</h4>
+                    <h5 class="description-text" style="text-align: end;">View complete topologies for classic or
+                        undiscovered routes</h5>
+                    <a href="https://apps.apple.com/us/app/goclimb-ar/id1499408169?ls=1">
+                        <button style="cursor: pointer;" class="button right">
+                            Download
+                        </button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Section Three -->
+    <div class="section-three animated fadeIn">
+        <div class="container">
+            <div class="row" style="padding-top: 76px; padding-bottom: 76px; margin-bottom: 0px;">
+                <div class="col s12">
+                    <h4 class="heading-secondary-left">Need More Information? Contact us!</h4>
+                    <h5 class="header subheading description-text" style="text-align: left;">Leave us the following information, and we
+                        will get back to you.</h5>
+                    <div class="row" style="padding-top: 16px;">
+                        <div class="input-field col s12 l6">
+                            <input id="first_name" type="text">
+                            <label for="first_name">First Name</label>
+                        </div>
+                        <div class="input-field col s12 l6">
+                            <input id="last_name" type="text">
+                            <label for="last_name">Last Name</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <input id="email" type="email" class="validate">
+                            <label for="email">Email</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <textarea id="message" style="    border-bottom: 1px solid #9e9e9e;"
+                                class="materialize-textarea"></textarea>
+                            <label for="message">Message</label>
+                        </div>
+                    </div>
+                    <div id="progress-bar" style="display: none;" class="progress">
+                        <div class="indeterminate"></div>
+                    </div>
+                    <button id="contactButton" onclick="submitContactForm()" style="cursor: pointer;" class="button left">
+                        Contact
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-copyright footer-style">
+        <div class="container" style="padding-top: 20px; padding-bottom: 20px; color: #A0A0A0;">
+            All Rights Reserved. Copyright Go Climb © 2020
+
+            <a class="waves-effect waves-teal btn-flat inactive" style="padding-left: 32px;"
+                href="./privacy-policy.html">Privacy
+                Policy</a>
+
+
+            <a class="grey-text text-lighten-4 right" style="padding-top: 8px;"
+                href="https://www.facebook.com/goclimbingapp/"><img style="fill: #A0A0A0;"
+                    src="./images/facebook.svg" /></a>
+
+
+        </div>
+    </div>
+</body>
+
+
+<!-- Compiled and minified JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.9.1/firebase.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.9.1/firebase-functions.js"></script>
+
+<script>
+    firebase.initializeApp({
+        apiKey: 'AIzaSyBXSwl5bU2kFJtUAL2x2XIixJ_zCbIPsTc',
+        authDomain: 'goclimbar.firebaseapp.com',
+        projectId: 'goclimbar',
+        databaseURL: 'https://goclimbar.firebaseio.com',
+    });
+
+    // Initialize Cloud Functions through Firebase
+    var functions = firebase.functions();
+
+    function swapPanel(panelToSwap) {
+        if (panelToSwap == 0) {
+            hideElements(document.getElementById("complete-panel"));
+            hideElements(document.getElementById("view-panel"));
+            showElement(document.getElementById("descripion-panel"));
+
+            swapToActive(document.getElementById("captureIcon"), document.getElementById("capture-block"))
+            swapToActive(document.getElementById("captureText"), document.getElementById("capture-block"))
+            swapToInactive(document.getElementById("completeIcon"), document.getElementById("complete-block"))
+            swapToInactive(document.getElementById("completeText"), document.getElementById("complete-block"))
+            swapToInactive(document.getElementById("viewIcon"), document.getElementById("view-block"))
+            swapToInactive(document.getElementById("viewText"), document.getElementById("view-block"))
+        }
+        else if (panelToSwap == 1) {
+            // toggle visibility
+            hideElements(document.getElementById("complete-panel"));
+            hideElements(document.getElementById("descripion-panel"));
+            showElement(document.getElementById("view-panel"));
+
+            // swap classes for tab highlight
+            swapToInactive(document.getElementById("captureIcon"), document.getElementById("capture-block"))
+            swapToInactive(document.getElementById("captureText"), document.getElementById("capture-block"))
+            swapToInactive(document.getElementById("completeIcon"), document.getElementById("complete-block"))
+            swapToInactive(document.getElementById("completeText"), document.getElementById("complete-block"))
+            swapToActive(document.getElementById("viewIcon"), document.getElementById("view-block"))
+            swapToActive(document.getElementById("viewText"), document.getElementById("view-block"))
+        }
+        else if (panelToSwap == 2) {
+            hideElements(document.getElementById("descripion-panel"));
+            hideElements(document.getElementById("view-panel"));
+            showElement(document.getElementById("complete-panel"));
+
+            swapToInactive(document.getElementById("captureIcon"), document.getElementById("capture-block"))
+            swapToInactive(document.getElementById("captureText"), document.getElementById("capture-block"))
+            swapToActive(document.getElementById("completeIcon"), document.getElementById("complete-block"))
+            swapToActive(document.getElementById("completeText"), document.getElementById("complete-block"))
+            swapToInactive(document.getElementById("viewIcon"), document.getElementById("view-block"))
+            swapToInactive(document.getElementById("viewText"), document.getElementById("view-block"))
+        }
+    }
+
+    function hideElements(e) {
+        e.style.display = 'none';
+        // e.classList.add('animated', 'fadeOut')
+    }
+
+    function showElement(e) {
+        e.style.display = 'block';
+        e.classList.add('animated', 'fadeIn')
+    }
+
+    function swapToInactive(element, outerElement) {
+        if (element.classList.contains("highlight-color")) {
+            element.classList.remove("highlight-color")
+        }
+
+        element.classList.add('inactive-color')
+
+        if (!outerElement.classList.contains("highlight-color")) {
+            outerElement.classList.add('disabled-opacity')
+        }
+    }
+
+    function swapToActive(element, outerElement) {
+        if (element.classList.contains("inactive-color")) {
+            element.classList.remove("inactive-color")
+        }
+
+        element.classList.add('highlight-color')
+
+        if (outerElement.classList.contains("disabled-opacity")) {
+            outerElement.classList.remove("disabled-opacity")
+        }
+    }
+
+    function submitContactForm() {
+        var firstNameForm = document.getElementById("first_name").value;
+        var surnameForm = document.getElementById("last_name").value;
+        var emailForm = document.getElementById("email").value;
+        var messageForm = document.getElementById("message").value;
+
+        if (firstNameForm && firstNameForm !== "" &&
+            surnameForm && surnameForm !== "" &&
+            emailForm && emailForm !== "" &&
+            messageForm && messageForm !== "") {
+
+            document.getElementById("contactButton").disabled = true;
+            showElement(document.getElementById("progress-bar"))
+            var data = { firstName: firstNameForm, surname: surnameForm, email: emailForm, message: messageForm };
+
+            var addMessage = firebase.functions().httpsCallable('contact');
+            addMessage({ content: JSON.stringify(data) }).then(function (result) {
+                // Read result of the Cloud Function.
+                hideElements(document.getElementById("progress-bar"))
+                document.getElementById("contactButton").disabled = false;
+                M.toast({html: 'Thanks for contacting us, we shall respond as soon as we can'})
+            });
+        }
+    }
+
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date(); a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-97518523-3', 'auto');
+    ga('send', 'pageview');
+</script>
+
+</html>

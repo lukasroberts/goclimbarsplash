@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="330px" height="238px" viewBox="0 0 330 238" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>Card</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#FFFFFF" stop-opacity="0.8" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0.4" offset="5%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="20%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#000000" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#000000" stop-opacity="0" offset="80%"></stop>
+            <stop stop-color="#000000" stop-opacity="0.02" offset="95.0255322%"></stop>
+            <stop stop-color="#000000" stop-opacity="0.04" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-3" x="0" y="0" width="326" height="232" rx="2"></rect>
+        <filter x="-1.8%" y="-1.7%" width="103.7%" height="105.2%" filterUnits="objectBoundingBox" id="filter-5">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.24 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter2"></feOffset>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter2" result="shadowBlurOuter2"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter2" in2="SourceAlpha" operator="out" result="shadowBlurOuter2"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.12 0" type="matrix" in="shadowBlurOuter2" result="shadowMatrixOuter2"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter2"></feMergeNode>
+            </feMerge>
+        </filter>
+        <rect id="path-6" x="16" y="180" width="294" height="36" rx="2"></rect>
+        <filter x="-2.0%" y="-11.1%" width="104.1%" height="133.3%" filterUnits="objectBoundingBox" id="filter-7">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.24 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter2"></feOffset>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter2" result="shadowBlurOuter2"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.12 0" type="matrix" in="shadowBlurOuter2" result="shadowMatrixOuter2"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter2"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="RatingSection" transform="translate(-26.000000, -26.000000)">
+            <g id="Card" transform="translate(28.000000, 28.000000)">
+                <mask id="mask-4" fill="white">
+                    <use xlink:href="#path-3"></use>
+                </mask>
+                <g id="card">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-5)" xlink:href="#path-3"></use>
+                    <use fill="#4D4D4D" fill-rule="evenodd" xlink:href="#path-3"></use>
+                    <rect stroke="url(#linearGradient-1)" stroke-width="0.5" x="0.25" y="0.25" width="325.5" height="231.5" rx="2"></rect>
+                    <rect stroke="url(#linearGradient-2)" stroke-width="0.5" x="0.25" y="0.25" width="325.5" height="231.5" rx="2"></rect>
+                </g>
+                <rect id="track" fill-opacity="0.300000012" fill="#FFFFFF" mask="url(#mask-4)" x="17" y="162" width="290" height="2"></rect>
+                <rect id="highlight" fill="#80CBC4" mask="url(#mask-4)" x="17" y="162" width="86" height="2"></rect>
+                <circle id="Oval-2" fill="#FFFFFF" mask="url(#mask-4)" cx="103" cy="163" r="1"></circle>
+                <circle id="Oval-2" fill="#FFFFFF" mask="url(#mask-4)" cx="17" cy="163" r="1"></circle>
+                <g id="value" mask="url(#mask-4)">
+                    <g transform="translate(90.000000, 124.000000)">
+                        <path d="M13,0.1 C20.2,0.1 26,6 26,13.3 C26,17 24,20.9 18.7,26.2 L13,32 L7.2,26.2 C2,20.8 0,16.9 0,13.3 C-3.55271368e-15,6 5.8,0.1 13,0.1 L13,0.1 Z" id="value-bg" fill="#80CBC4" fill-rule="evenodd"></path>
+                        <text id="6B" fill="none" font-family="Roboto-Regular, Roboto" font-size="10" font-weight="normal" fill-opacity="0.870000005">
+                            <tspan x="7.07958984" y="16.1" fill="#000000">6B</tspan>
+                        </text>
+                    </g>
+                </g>
+                <g id="button-bg" mask="url(#mask-4)">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-7)" xlink:href="#path-6"></use>
+                    <use fill="#009688" fill-rule="evenodd" xlink:href="#path-6"></use>
+                </g>
+                <text id="COMPLETE-ROUTE" mask="url(#mask-4)" font-family="Roboto-Medium, Roboto" font-size="14" font-weight="400" letter-spacing="0.5" fill="#FFFFFF">
+                    <tspan x="98.2607422" y="204">COMPLETE ROUTE</tspan>
+                </text>
+                <text id="Proposed-Grade" mask="url(#mask-4)" font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal" line-spacing="24" fill="#FFFFFF">
+                    <tspan x="16" y="113">Proposed Grade</tspan>
+                </text>
+                <text id="Your-Rating" mask="url(#mask-4)" font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal" line-spacing="24" fill="#FFFFFF">
+                    <tspan x="16" y="31">Your Rating</tspan>
+                </text>
+                <g id="Group" mask="url(#mask-4)">
+                    <g transform="translate(16.000000, 42.000000)" id="star-24px">
+                        <g>
+                            <polygon id="Shape" points="0 0 24 0 24 24 0 24"></polygon>
+                            <polygon id="Shape" fill="#FEB32B" fill-rule="nonzero" points="12 17.27 18.18 21 16.54 13.97 22 9.24 14.81 8.63 12 2 9.19 8.63 2 9.24 7.46 13.97 5.82 21"></polygon>
+                            <polygon id="Shape" points="0 0 24 0 24 24 0 24"></polygon>
+                        </g>
+                        <g transform="translate(26.000000, 0.000000)">
+                            <polygon id="Shape" points="0 0 24 0 24 24 0 24"></polygon>
+                            <polygon id="Shape" fill="#FEB32B" fill-rule="nonzero" points="12 17.27 18.18 21 16.54 13.97 22 9.24 14.81 8.63 12 2 9.19 8.63 2 9.24 7.46 13.97 5.82 21"></polygon>
+                            <polygon id="Shape" points="0 0 24 0 24 24 0 24"></polygon>
+                        </g>
+                        <g transform="translate(52.000000, 0.000000)">
+                            <polygon id="Shape" points="0 0 24 0 24 24 0 24"></polygon>
+                            <polygon id="Shape" fill="#FEB32B" fill-rule="nonzero" points="12 17.27 18.18 21 16.54 13.97 22 9.24 14.81 8.63 12 2 9.19 8.63 2 9.24 7.46 13.97 5.82 21"></polygon>
+                            <polygon id="Shape" points="0 0 24 0 24 24 0 24"></polygon>
+                        </g>
+                        <g transform="translate(78.000000, 0.000000)">
+                            <polygon id="Shape" points="0 0 24 0 24 24 0 24"></polygon>
+                            <polygon id="Shape" fill="#FEB32B" fill-rule="nonzero" points="12 17.27 18.18 21 16.54 13.97 22 9.24 14.81 8.63 12 2 9.19 8.63 2 9.24 7.46 13.97 5.82 21"></polygon>
+                            <polygon id="Shape" points="0 0 24 0 24 24 0 24"></polygon>
+                        </g>
+                        <g transform="translate(104.000000, 0.000000)">
+                            <polygon id="Shape" points="0 0 24 0 24 24 0 24"></polygon>
+                            <polygon id="Shape" fill="#646464" fill-rule="nonzero" points="12 17.27 18.18 21 16.54 13.97 22 9.24 14.81 8.63 12 2 9.19 8.63 2 9.24 7.46 13.97 5.82 21"></polygon>
+                            <polygon id="Shape" points="0 0 24 0 24 24 0 24"></polygon>
+                        </g>
+                    </g>
+                </g>
+                <text id="A-good-problem-that" mask="url(#mask-4)" font-family="Roboto-Regular, Roboto" font-size="12" font-weight="normal" line-spacing="16" fill="#9B9B9B">
+                    <tspan x="16" y="82">A good problem that is worth seeking out</tspan>
+                </text>
+                <g id="button" mask="url(#mask-4)">
+                    <g transform="translate(16.000000, 180.000000)"></g>
+                </g>
+                <g id="slider-notched-pressed" mask="url(#mask-4)">
+                    <g transform="translate(16.000000, 124.000000)" id="notches">
+                        <g transform="translate(0.000000, 38.000000)"></g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

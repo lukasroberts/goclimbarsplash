@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="292px" height="109px" viewBox="0 0 292 109" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>ActivityGraph</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-2.4%" y="-4.7%" width="105.2%" height="113.2%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="60.8735194%" id="linearGradient-2">
+            <stop stop-color="#77CCDF" offset="0%"></stop>
+            <stop stop-color="#3DF8CD" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Main-Site" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="SplashPageMockup" transform="translate(-259.000000, -688.000000)">
+            <g id="Splash" transform="translate(-1.000000, -3.000000)">
+                <g id="ForClimbers" transform="translate(94.000000, 478.000000)">
+                    <g id="Row" transform="translate(109.000000, 208.000000)">
+                        <g id="Insights2" transform="translate(0.000000, 2.000000)">
+                            <g id="ActivityGraph" transform="translate(60.000000, 0.000000)">
+                                <g filter="url(#filter-1)">
+                                    <g id="Days" font-size="14" font-family="Roboto-Regular, Roboto" line-spacing="20" fill="#3DF8CD" font-weight="normal">
+                                        <text id="M">
+                                            <tspan x="0" y="13">M</tspan>
+                                        </text>
+                                        <text id="T">
+                                            <tspan x="49.0383693" y="13">T</tspan>
+                                        </text>
+                                        <text id="W">
+                                            <tspan x="93.9616307" y="13">W</tspan>
+                                        </text>
+                                        <text id="T">
+                                            <tspan x="143" y="13">T</tspan>
+                                        </text>
+                                        <text id="F">
+                                            <tspan x="187.923261" y="13">F</tspan>
+                                        </text>
+                                        <text id="S">
+                                            <tspan x="231.817746" y="13">S</tspan>
+                                        </text>
+                                        <text id="S">
+                                            <tspan x="276.741007" y="13">S</tspan>
+                                        </text>
+                                    </g>
+                                    <g id="CircleRow" transform="translate(9.000000, 31.000000)" fill="url(#linearGradient-2)">
+                                        <ellipse id="Oval" cx="1.5391791" cy="2" rx="1.5391791" ry="2"></ellipse>
+                                        <ellipse id="Oval" cx="46.8594527" cy="2" rx="1.5391791" ry="2"></ellipse>
+                                        <ellipse id="Oval" cx="92.1797264" cy="2" rx="1.5391791" ry="2"></ellipse>
+                                        <ellipse id="Oval" cx="137.5" cy="2" rx="1.5391791" ry="2"></ellipse>
+                                        <ellipse id="Oval" cx="182.820274" cy="2" rx="1.5391791" ry="2"></ellipse>
+                                        <ellipse id="Oval" cx="228.140547" cy="2" rx="1.5391791" ry="2"></ellipse>
+                                        <ellipse id="Oval" cx="273.460821" cy="2" rx="1.5391791" ry="2"></ellipse>
+                                    </g>
+                                    <g id="CircleRow" transform="translate(9.000000, 58.000000)" fill="url(#linearGradient-2)">
+                                        <ellipse id="Oval" cx="1.5391791" cy="7.5" rx="1.5391791" ry="1.5"></ellipse>
+                                        <ellipse id="Oval" cx="46.8594527" cy="7.5" rx="1.5391791" ry="1.5"></ellipse>
+                                        <ellipse id="Oval" cx="92.1797264" cy="7.5" rx="1.5391791" ry="1.5"></ellipse>
+                                        <ellipse id="Oval" cx="136.98694" cy="8" rx="8.20895522" ry="8"></ellipse>
+                                        <ellipse id="Oval" cx="182.820274" cy="7.5" rx="1.5391791" ry="1.5"></ellipse>
+                                        <ellipse id="Oval" cx="228.140547" cy="7.5" rx="1.5391791" ry="1.5"></ellipse>
+                                        <ellipse id="Oval" cx="273.460821" cy="7.5" rx="1.5391791" ry="1.5"></ellipse>
+                                    </g>
+                                    <g id="CircleRow" transform="translate(9.000000, 86.000000)" fill="url(#linearGradient-2)">
+                                        <ellipse id="Oval" cx="1.5391791" cy="10" rx="1.5391791" ry="1.57894737"></ellipse>
+                                        <ellipse id="Oval" cx="47.8855721" cy="11.0526316" rx="5.64365672" ry="5.78947368"></ellipse>
+                                        <ellipse id="Oval" cx="92.1797264" cy="10" rx="1.5391791" ry="1.57894737"></ellipse>
+                                        <ellipse id="Oval" cx="137.5" cy="10" rx="1.5391791" ry="1.57894737"></ellipse>
+                                        <ellipse id="Oval" cx="182.820274" cy="10" rx="1.5391791" ry="1.57894737"></ellipse>
+                                        <ellipse id="Oval" cx="227.114428" cy="10" rx="9.74813433" ry="10"></ellipse>
+                                        <ellipse id="Oval" cx="273.460821" cy="10" rx="1.5391791" ry="1.57894737"></ellipse>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
